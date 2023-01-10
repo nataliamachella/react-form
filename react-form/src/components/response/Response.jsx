@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./Response.css";
-import { db } from "../../firebase/firebase.config";
-import { collection, onSnapshot } from "firebase/firestore";
+
 import { Link } from "react-router-dom";
-import { UserContext } from "../../context/UserContext";
 
 const Response = () => {
   const [res, setRes] = useState([]);
 
-  console.log(res);
+  const email = JSON.stringify(res.email);
+  console.log(email);
 
   const getData = () => {
     return JSON.parse(localStorage.getItem("form"));
@@ -16,12 +15,8 @@ const Response = () => {
 
   const clearData = () => {
     localStorage.removeItem("form");
-    console.log("datos borrados");
+    console.log("Datos borrados del localstorage");
   };
-
-  /* onSnapshot(collection(db, "dataForm"), (snapshot) => {
-    setRes(snapshot.docs.map((doc) => doc.data()));
-  }); */
 
   useEffect(() => {
     setRes(getData());

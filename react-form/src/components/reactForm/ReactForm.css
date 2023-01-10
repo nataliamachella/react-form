@@ -15,15 +15,15 @@
   height: 100%;
 }
 
-h1 {
+.container h1 {
   font-size: 45px;
-  font-family: "Solstice";
+  font-family: "Quicksand";
   color: #75468a;
   margin: 20px auto;
 }
 
 form {
-  width: 70%;
+  width: 50%;
   height: 75%;
   padding: 30px 30px;
   border-radius: 10px;
