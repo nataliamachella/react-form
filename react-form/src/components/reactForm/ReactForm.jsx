@@ -35,7 +35,7 @@ const ReactForm = () => {
       title: "Respuesta enviada!",
       html:
         "Para ver tus respuestas hacé , " +
-        '<a href="http://localhost:3000/response"><b>Click Aquí</b></a> ',
+        '<a href="https://react-form-nm.vercel.app/response"><b>Click Aquí</b></a> ',
     });
   };
 
