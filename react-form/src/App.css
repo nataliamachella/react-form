@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Solstice";
+  src: url("../src/components/assets/fonts/Millennial\ Solstice.otf");
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("../src/components/assets/fonts/Quicksand-VariableFont_wght.ttf");
+}
