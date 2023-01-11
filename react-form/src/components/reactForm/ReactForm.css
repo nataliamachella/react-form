@@ -98,3 +98,84 @@ input:focus {
   color: #fff;
   transition: all 0.3 ease;
 }
+
+@media screen and (max-width: 767px) {
+  .container h1 {
+    font-size: 30px;
+    margin: 10px auto;
+  }
+
+  form {
+    width: 100%;
+    height: 80%;
+    padding: 10px 10px;
+    margin-top: 50px;
+    position: fixed;
+  }
+  label {
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  input {
+    font-size: 14px;
+    padding-top: 5px;
+    height: 80%;
+  }
+
+  .checkbox {
+    font-size: 14px;
+    display: inline-flex;
+  }
+
+  .checkbox input {
+    margin-left: 5px;
+  }
+  .select option {
+    height: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container h1 {
+    margin: 20px auto;
+  }
+
+  form {
+    width: 70%;
+    height: 80%;
+    padding: 10px 10px;
+  }
+  label {
+    margin: 10px auto;
+    width: 60%;
+  }
+
+  input {
+    font-size: 14px;
+    padding-top: 5px;
+    height: 80%;
+  }
+
+  .checkbox {
+    font-size: 14px;
+    display: inline-flex;
+  }
+
+  .checkbox input {
+    margin-left: 5px;
+  }
+  .select option {
+    height: 70%;
+  }
+
+  .button {
+    padding: 10px;
+    width: 80%;
+  }
+
+  .button input {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
